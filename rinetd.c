@@ -214,7 +214,7 @@ struct _rinetd_options
 };
 
 RinetdOptions options = {
-	"/etc/rinetd.conf"
+	"./etc/rinetd.conf"
 };
 
 int readArgs (int argc,
